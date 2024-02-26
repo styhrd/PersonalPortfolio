@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: #05131a;
+}
+
+.flexrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 15%;
+}
+
+nav {
+    padding: 1em 2em 1em;
+}
+
+.menu a {
+    padding: 0em .8em 0em;
+    color: #c4c8c7;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    position: relative;
+    background-color: #c4c8c7;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    .hamburger {
+        display: inline;
+    }
+
+    .menu {
+        display: none;
+    }
+}
